@@ -1,3 +1,4 @@
+tets
 this is the README.ME of the gitfolder
 i go through 4 steps in this project:
 1-create a doc inside a folder and pushg it to github
@@ -16,13 +17,50 @@ github is also can be public to developpers around the globe so the other
 devs can see our code and help us in improving it.
 ----------------------------------------------
 the commands that i learn today are many , and are :
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+*first of all whe, i try to open bash i find that im in a diff directory so to change the dir where i want to work i use the command: cp "C:/Users/aitel/onedrive/destop/gitfolder 
+
+*git remote add origin <repo-url> :this command is used to remote the github repository and the git bash if the command run that mean that the origin which is the default name of the git repository will be linked to the github repo .
+
+*git init : when we will run git init that will create a hidden file named .git , git init command is used to initialize a new Git repository in a directory.so the git init create the fule the directory needs to starting remoting between git bash and github.
+
+*git remote-v : v stands for view so after running the command we will get the origin (the default name of the repository) and the url which the orin linked to .for push command and pull command
+
+*git status is used to know the status of the repository number of branch and their name and commit and the files in the repository
+
+*git branch -u master main : this command is used to change the branch name in this case we
+ve changed the name to main insted of master
+ 
+*git commit -m "text" used to save and at the same time input a text of what we ve modify 
+it s important to commit after making any changes
+
+*but before comitting any changes we need to enter the username and the adress 
+to enter the adress we used : git config --global user.email "you@gmail.com"
+for the username it s :git config --globale username "name"
+to show the email we eneter : git config --global user.email
+and for the username git config --global username
+
+*the git add <file-name.extension> make you tell the git that i want to save the change to the next commit .for example if i modify the file out of the bash and i want to bring these modifications to the bash i will use this command 
+
+*git push -u origin(repo-name) main(branch) the push is the command that let us push the modification we do in bash to the github for exemple if i create a readme.me in bash 
+it wont appear in the repo of github until i commit the changes and push it .
+
+*git show command shows us the tree of the repirtory we work in .
+
+*nano <file-name.extension> command will open a terminal where we want to add text to the file name or delete it or modify it
+
+*git add . :command is like the git add <> one but this one saves all the modification not just the <file-name>
+
+*ls : is a command that show us what is inside 
+for exemple if we are in folder A and we type ---ls--- the result will be what is inside the folder
+
+*git pull <url.git'or token> : this command is the opposite of the push command if the push command make us send or push to the github server then pull is to bring and pull from the github for exemple if the code i have in my local was deleted i can back it up from github if i already push it 
+
+* cat file : is used to show what is inside the file 
+*cat > file-name.extension : when i run this command the bash will give me an input to write the thing i want to add to the file-name but the old information will be deleted .
+to stop we click ctrle-z
+
+*echo "text" > file-name.extension : it will add text word to the file and will delete the old info if we insert a file-name without exenstion the bash will create new file 
+and add the text
+
+*ls -la : like ls but with the -la we can see the hidden files like .git.
+
